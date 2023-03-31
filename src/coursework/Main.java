@@ -136,9 +136,9 @@ public class Main {
     // Метод для вывода меню в консоль
     public static void getMenu() {
         System.out.println("\n Выберите: " +
-                "\n 1 - добавить новую задачу " +
-                "\n 2 - вывести список всех задач" +
-                "\n 3 - удалить задачу " +
+                "\n 1 - добавить новую задачу: " +
+                "\n 2 - вывести список всех задач:" +
+                "\n 3 - удалить задачу: " +
                 "\n 4 - выйти \n");
     }
 
@@ -148,5 +148,6 @@ public class Main {
             throw new IncorrectArgumentException(argument);
         }
     }
+
     }
 

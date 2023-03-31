@@ -8,6 +8,7 @@ public class DailyTask extends Task{
         super(title, type, dateTime , description);
     }
 
+
     @Override
     public boolean appearsIn(LocalDateTime dateTime) {
         return true;
@@ -23,4 +24,5 @@ public class DailyTask extends Task{
     public String toString() {
         return  super.toString() + "\n повторять ежедневно";
     }
+
 }
